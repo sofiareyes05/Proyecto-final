@@ -1,0 +1,85 @@
+.problema-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #0b0f0e 0%, #050807 100%);
+  color: #989281;
+}
+
+/* TITULOS */
+.subtitulo {
+  color: #1AD96D;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.titulo {
+  font-family: 'Ringbearer Medium';
+  font-size: 60px;
+  color: #dcdcdc;
+}
+
+/* CARDS */
+.card-problema,
+.card-solucion {
+  background: rgba(20, 25, 24, 0.6);
+  border-radius: 10px;
+  padding: 30px;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* EFECTO GLOW SOLO DERECHA */
+.card-solucion {
+  box-shadow: 0 0 30px rgba(26, 217, 109, 0.2);
+}
+
+/* TITULOS CARDS */
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: #ff5c5c;
+}
+
+.green {
+  color: #1AD96D;
+}
+
+/* LINEAS */
+.linea {
+  width: 3px;
+  height: 30px;
+  margin: 15px 0;
+}
+
+.roja {
+  background: #ff5c5c;
+}
+
+.verde {
+  background: #1AD96D;
+}
+
+/* TEXTO */
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  color: #1AD96D;
+  font-weight: bold;
+}
+
+/* FRASE FINAL */
+.frase {
+  font-style: italic;
+  color: #bfbfbf;
+}
+
+.frase span {
+  color: #1AD96D;
+}
