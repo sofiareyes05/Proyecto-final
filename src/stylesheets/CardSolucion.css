@@ -1,0 +1,74 @@
+.card-info {
+  background: #0b0f14;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  color: white;
+}
+
+/* Header */
+.card-header {
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+/* Items */
+.card-item {
+  margin-bottom: 20px;
+}
+
+.card-line {
+  width: 3px;
+  margin-right: 12px;
+  border-radius: 2px;
+}
+
+.card-text {
+  color: #cfcfcf;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ROJO */
+.rojo .card-title {
+  color: #ff4d4d;
+}
+
+.rojo .card-line {
+  background: #ff4d4d;
+}
+
+.rojo .icon-circle {
+  background: rgba(255, 77, 77, 0.2);
+}
+
+/* VERDE */
+.verde .card-title {
+  color: #00ffaa;
+}
+
+.verde .card-line {
+  background: #00ffaa;
+}
+
+.verde .icon-circle {
+  background: rgba(0, 255, 170, 0.2);
+}

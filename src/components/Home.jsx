@@ -9,7 +9,7 @@ export const Home = () => {
         position: "relative",
         width: "100%",
         height: "100vh",
-        backgroundImage: "url('./public/fondo1.png')", 
+        backgroundImage: "url('./public/fondo1.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
@@ -18,7 +18,7 @@ export const Home = () => {
       }}
     >
 
-    
+
       <div
         style={{
           position: "absolute",
@@ -39,7 +39,7 @@ export const Home = () => {
         }}
       />
 
-    
+
       <div
         style={{
           position: "relative",
@@ -66,7 +66,7 @@ export const Home = () => {
             fontSize: "100px",
             fontFamily: "'Ringbearer Medium'",
             marginBottom: "20px",
-            textShadow:" 0 0 10px #1AD96D "
+            textShadow: " 0 0 10px #1AD96D "
           }}
         >
           GRIMORIO
@@ -80,7 +80,7 @@ export const Home = () => {
             marginBottom: "30px",
           }}
         >
-          ATRÉVETE A LEER LO QUE NO DEBE SER LEÍDO 
+          ATRÉVETE A LEER LO QUE NO DEBE SER LEÍDO
         </p>
         <p
           style={{
@@ -91,46 +91,46 @@ export const Home = () => {
             marginBottom: "20px",
           }}
         >
-           Donde la lectura deja de ser una obligación para convertirse en una experiencia inmersiva de terror cósmico
+          Donde la lectura deja de ser una obligación para convertirse en una experiencia inmersiva de terror cósmico
         </p>
 
         <div className="d-flex gap-5 aligh-items justify-content-center">
           <button
-          style={{
-            gap:"50px",
-            border: "1px solid #1AD96D",
-            padding: "10px 25px",
-            background: "#1AD96D",
-            color: "#000000",
-            borderRadius: "6px",
-            letterSpacing: "2px",
-            cursor: "pointer",
-            fontFamily:"haus"
-          }}
-        >
-          DESCUBRIR MÁS
-        </button>
-        <button
-          style={{
-            gap:"50px",
-            border: "1px solid #1AD96D",
-            padding: "10px 25px",
-            background: "transparent",
-            color: "#1AD96D",
-            borderRadius: "6px",
-            letterSpacing: "2px",
-            cursor: "pointer",
-            fontFamily:"haus"
-          }}
-        >
-          VER EL CÓMIC
-        </button>
+            style={{
+              gap: "50px",
+              border: "1px solid #1AD96D",
+              padding: "10px 25px",
+              background: "#1AD96D",
+              color: "#000000",
+              borderRadius: "6px",
+              letterSpacing: "2px",
+              cursor: "pointer",
+              fontFamily: "haus"
+            }}
+          >
+            DESCUBRIR MÁS
+          </button>
+          <button
+            style={{
+              gap: "50px",
+              border: "1px solid #1AD96D",
+              padding: "10px 25px",
+              background: "transparent",
+              color: "#1AD96D",
+              borderRadius: "6px",
+              letterSpacing: "2px",
+              cursor: "pointer",
+              fontFamily: "haus"
+            }}
+          >
+            VER EL CÓMIC
+          </button>
 
         </div>
 
-       
 
-        
+
+
 
       </div>
     </div>

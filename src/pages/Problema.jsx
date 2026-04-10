@@ -1,65 +1,35 @@
 
+import CardSolucion from "../components/CardSolucion";
 
-import "../stylesheets/css.css";
-import { CardProblema } from "../components/CardProblema";
-
-export const Problema = ({titulo,text1,text2,text3}) => {
+export const Problema = () => {
   return (
-    <section className="problema-section d-flex align-items-center">
-      <div className="container">
+    <div className="container mt-5">
+      <div className="row">
 
-        
-        <div className="text-center mb-5">
-          <p className="subtitulo">EL DESAFÍO</p>
-          <h2 className="titulo">¿POR QUÉ GRIMORIO?</h2>
+        <div className="col-md-6 mb-4">
+          <CardSolucion
+            titulo="El Problema"
+            icono="/img/rayo.png"
+            color="rojo"
+            texto1="Los jóvenes no rechazan la lectura..."
+            texto2="Géneros como el terror, la fantasía..."
+            texto3="No existen plataformas..."
+          />
         </div>
 
-     
-        <div className="row g-4">
-
-        
-          <div className="col-md-6">
-            <div className="card-problema">
-
-              <h5 className="card-title red"> {titulo}
-                ⚡ EL PROBLEMA
-              </h5>
-
-              <div className="linea roja"></div>
-
-              <p>{text1}
-                Los jóvenes <b>no rechazan la lectura</b>, sino los formatos tradicionales:
-                textos extensos, sin estímulos visuales, impuestos como obligación.
-              </p>
-
-              <div className="linea roja"></div>
-
-              <p>{text2}
-                Géneros como el <b>terror, la fantasía y la ciencia ficción</b> —
-                los más consumidos por jóvenes — son ignorados en entornos educativos.
-              </p>
-
-              <div className="linea roja"></div>
-
-              <p>{text3}
-                No existen plataformas que conecten la lectura con los
-                <b> lenguajes digitales</b> que los jóvenes ya dominan.
-              </p>
-
-            </div>
-          </div>
-
-       
+        <div className="col-md-6 mb-4">
+          <CardSolucion
+            titulo="La Solución: Grimorio"
+            icono="/img/estrella.png"
+            color="verde"
+            texto1="Una plataforma interactiva..."
+            texto2="Un cómic digital inmersivo..."
+            texto3="Narrativa que se explora..."
+          />
         </div>
-
-        {/* FRASE FINAL */}
-        <p className="frase text-center mt-5">
-          "Deja de leer. Comienza a <span>sentir</span> la historia."
-        </p>
 
       </div>
-    </section>
+    </div>
   );
 };
-
 
