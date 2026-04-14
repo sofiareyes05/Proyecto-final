@@ -1,9 +1,16 @@
 .card-info {
   background: #0b0f14;
-  padding: 30px;
-  border-radius: 12px;
+  padding: 35px;
+  border-radius: 14px;
   width: 100%;
   color: white;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: all 0.3s ease;
+}
+
+/* Glow SOLO para verde */
+.verde.card-info {
+  box-shadow: 0 0 25px rgba(6, 190, 49, 0.15);
 }
 
 /* Header */
@@ -13,38 +20,43 @@
 }
 
 .icon-circle {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Icono */
 .card-icon {
   width: 18px;
   height: 18px;
 }
 
+/* Título */
 .card-title {
   font-size: 20px;
+  font-family: "Ringbearer Medium", serif;
+  letter-spacing: 1px;
 }
 
 /* Items */
 .card-item {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .card-line {
   width: 3px;
-  margin-right: 12px;
+  margin-right: 14px;
   border-radius: 2px;
 }
 
 .card-text {
-  color: #cfcfcf;
-  font-size: 15px;
-  line-height: 1.6;
+  color: #ffffff;
+  font-size: 20px;
+  /* line-height: 1.7; */
+  font-family: "Minion Variable Concept";
 }
 
 /* ROJO */
@@ -57,7 +69,7 @@
 }
 
 .rojo .icon-circle {
-  background: rgba(255, 77, 77, 0.2);
+  background: rgba(255, 77, 77, 0.15);
 }
 
 /* VERDE */
@@ -70,5 +82,5 @@
 }
 
 .verde .icon-circle {
-  background: rgba(0, 255, 170, 0.2);
+  background: rgba(0, 255, 170, 0.15);
 }

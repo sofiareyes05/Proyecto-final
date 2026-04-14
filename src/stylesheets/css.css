@@ -1,7 +1,90 @@
+.card-grande {
+  width: 260px;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #2a3a38;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-@font-face {
-  font-family: 'titulo';
-  src: url('../stylesheets/RINGM___.TTF');}
+
+.card-grande:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 0 25px rgba(191, 167, 106, 0.5);
+  border: 1px solid #bfa76a;
+}
 
 
+.card-grande-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+
+.card-grande-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.95),
+    transparent
+  );
+}
+
+
+.card-grande-rol {
+  color: #bfa76a;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-family: monospace;
+  margin-bottom: 5px;
+}
+
+
+.card-grande-nombre {
+  color: #fff;
+  font-size: 16px;
+  font-family: "haus";
+  margin-bottom: 6px;
+}
+
+.card-grande-desc {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+
+
+.card-grande-tag {
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #bfa76a;
+  color: #bfa76a;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+
+.card-grande-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #bfa76a;
+  background: rgba(191, 167, 106, 0.1);
+  color: #bfa76a;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: "haus";
+  transition: all 0.3s ease;
+}
+
+.card-grande-btn:hover {
+  background: #bfa76a;
+  color: #000;
+}

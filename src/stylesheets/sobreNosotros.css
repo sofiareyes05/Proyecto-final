@@ -1,0 +1,28 @@
+.sobre-container {
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #0b0f14, #05070a);
+  text-align: center;
+  color: white;
+}
+
+/* Subtítulo */
+.sobre-subtitulo {
+  color: #7a3cff;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Título */
+.sobre-titulo {
+  font-family: "Ringbearer Medium", serif;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sobre-titulo {
+    font-size: 40px;
+  }
+}

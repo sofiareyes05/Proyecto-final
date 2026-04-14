@@ -1,0 +1,103 @@
+.equipo-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #0b0f0e 0%, #050807 100%);
+  padding: 100px 0;
+  color: white;
+}
+
+/* TITULOS */
+.subtitulo {
+  color: #1AD96D;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.titulo {
+  font-family: 'Ringbearer Medium';
+  font-size: 60px;
+  color: #dcdcdc;
+  position: relative;
+}
+
+/* LINEA DEBAJO TITULO */
+.titulo::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #1AD96D;
+  margin: 10px auto 0;
+}
+
+/* CARD */
+.card-equipo {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* IMAGEN */
+.card-equipo img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+/* HOVER */
+.card-equipo:hover img {
+  transform: scale(1.05);
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  text-align: left;
+}
+
+.overlay h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.overlay p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* BADGE */
+.badge-custom {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid #1AD96D;
+  color: #1AD96D;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  z-index: 2;
+  letter-spacing: 1px;
+}
+
+/* TAG FINAL */
+.tag-final {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  color: #aaa;
+  font-size: 12px;
+}
+.rol {
+  font-size: 12px;
+  color: #a855f7; /* morado */
+  letter-spacing: 1px;
+}

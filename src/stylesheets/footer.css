@@ -1,0 +1,25 @@
+.footer {
+  background: #050807;
+  text-align: center;
+  padding: 60px 20px;
+  color: #989281;
+}
+
+.footer h3 {
+  color: #1AD96D;
+  font-family: 'Ringbearer Medium';
+}
+
+.links {
+  margin: 20px 0;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #989281;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #1AD96D;
+}

@@ -1,6 +1,7 @@
 
-import "../stylesheets/css.css" ;
- 
+import { Link } from "react-router-dom";
+import "../stylesheets/css.css";
+
 export const Header = () => {
   return (
     <nav
@@ -15,57 +16,70 @@ export const Header = () => {
     >
       <div className="container d-flex justify-content-between align-items-center">
 
-        
+
         <a
           className="navbar-brand"
           href="/"
           style={{
-            fontSize:"19px",
+            fontSize: "19px",
             color: "#1AD96D",
-            fontFamily:"'Ringbearer Medium'",
+            fontFamily: "'Ringbearer Medium'",
             letterSpacing: "3px",
-            textShadow:"0 0 6px #fff"
+            textShadow: "0 0 6px #fff"
           }}
         >
           GRIMORIO
         </a>
 
-      
+
         <div className="d-flex align-items-center gap-4">
 
-          <a
+          
+
+          <Link
             className="nav-link"
-            href="/"
-            style={{ color: "#989281", fontSize:"15px", fontFamily:"'Minion Variable Concept'", }}
+            to="/problema"
+            style={{ color: "#989281", fontSize: "15px", fontFamily: "'Minion Variable Concept'", }}
           >
             PROBLEMA
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="nav-link"
-            href="/about"
-            style={{ color: "#989281", fontSize:"15px", fontFamily:"'Minion Variable Concept'",}} 
+            to="/capitulos"
+            style={{ color: "#989281", fontSize: "15px", fontFamily: "'Minion Variable Concept'", }}
           >
-            SOBRE NOSOTRAS
-          </a>
+            CAPITULOS
+            
+          </Link>
 
-          <a
+          <Link
             className="nav-link"
-            href="/personajes"
-            style={{ color: "#989281",fontSize:"15px", fontFamily:"'Minion Variable Concept'", }}  
+            to="/personajes"
+            style={{ color: "#989281", fontSize: "15px", fontFamily: "'Minion Variable Concept'", }}
           >
             PERSONAJES
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="nav-link"
-            href="/comic"
-            style={{ color: "#989281",fontSize:"15px", fontFamily:"'Minion Variable Concept'", }}
+            to="/sobreNosotros"
+            style={{ color: "#989281", fontSize: "15px", fontFamily: "'Minion Variable Concept'", }}
           >
-            COMIC
-          </a>
-
+            SOBRE NOSOTRAS
+            
+          </Link>
           
+          <Link
+            className="nav-link"
+            to="/equipo"
+            style={{ color: "#989281", fontSize: "15px", fontFamily: "'Minion Variable Concept'", }}
+          >
+            EQUIPO
+            
+          </Link>
+
+
 
         </div>
       </div>

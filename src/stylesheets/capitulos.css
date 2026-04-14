@@ -1,0 +1,264 @@
+/* TITULOS */
+.subtitulo {
+  color: #9b5cff;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.titulo {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.descripcion {
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* CARD */
+.cap-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 250px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cap-card.grande {
+  height: 100%;
+  min-height: 520px;
+}
+
+.cap-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay oscuro */
+.cap-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  color: white;
+}
+
+/* Texto */
+.cap-badge {
+  color: aqua;
+  background: rgba(155, 92, 255, 0.2);
+  box-shadow: 0 0 25px rgba(155, 92, 255, 0.4);
+  border: 1px solid rgba(155, 92, 255, 0.4);
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.cap-title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.cap-desc {
+  font-size: 13px;
+  color: #ccc;
+}
+
+/* HOVER GENERAL */
+.cap-card:hover {
+  transform: scale(1.02);
+}
+
+/* COLORES */
+
+/* VERDE (cap 1 y 4) */
+.cap-card.verde:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 170, 0.4);
+  border: 1px solid rgba(0, 255, 170, 0.4);
+}
+
+.cap-card.verde .cap-badge {
+  background: rgba(0, 255, 170, 0.2);
+  color: #00ffaa;
+}
+
+/* MORADO (cap 2) */
+.cap-card.morado:hover {
+  box-shadow: 0 0 25px rgba(155, 92, 255, 0.4);
+  border: 1px solid rgba(155, 92, 255, 0.4);
+}
+
+.cap-card.morado .cap-badge {
+  background: rgba(155, 92, 255, 0.2);
+  color: #9b5cff;
+}
+
+/* ROJO (cap 5) */
+.cap-card.rojo:hover {
+  box-shadow: 0 0 25px rgba(255, 77, 77, 0.4);
+  border: 1px solid rgba(255, 77, 77, 0.4);
+}
+
+.cap-card.rojo .cap-badge {
+  background: rgba(255, 77, 77, 0.2);
+  color: #ff4d4d;
+}
+
+/* NEUTRO (cap 3) */
+.cap-card.normal:hover {
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+/* OVERLAY */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 900px;
+  background: #0b0f0e;
+  border-radius: 12px;
+  padding: 25px;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title {
+  font-family: "haus";
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.modal-title .capitulo {
+  color: #2ecc71;
+}
+
+.modal-image-container {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.modal-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.modal-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ccc;
+  font-family: monospace;
+}
+
+.modal-play img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.modal-desc {
+  margin-top: 15px;
+  color: #aaa;
+  font-family: monospace;
+}
+
+.modal-info {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.modal-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2ecc71;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.modal-item img {
+  width: 18px;
+  height: 18px;
+}
+
+/* PLAY */
+.play {
+  font-size: 45px;
+  color: #00ffaa;
+  margin-bottom: 5px;
+}
+
+/* TEXTO */
+.proximamente {
+  font-size: 12px;
+  color: #ccc;
+  letter-spacing: 1px;
+}
+
+/* DESCRIPCIÓN */
+.modal-desc {
+  margin-top: 15px;
+  color: #ccc;
+}
+
+/* INFO ABAJO */
+.modal-info {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+.titulo {
+  font-family: 'Ringbearer Medium';
+  font-size: 50px;
+  color: #dcdcdc;
+}
+
+.subtitulo {
+  color: #1AD96D;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.descripcion {
+  color: #989281;
+  font-size: 16px;
+  max-width: 600px;
+  margin: auto;
+}
