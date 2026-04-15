@@ -3,7 +3,6 @@ import Header from './components/Header'
 import { Home } from './components/Home'
 import { Problema } from './pages/Problema'
 import { Capitulos } from './pages/Capitulos'
-import { CapituloModal } from './components/CapituloModal'
 import { Personajes } from './pages/Personajes'
 import "./App.css"
 import { SobreNosotros } from './pages/SobreNosotros'
