@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CardCapitulo from "../components/CardCapitulo";
 import { CapituloModal } from "../components/CapituloModal";
-import "../stylesheets/capitulos.css";
+import "../stylesheets/Capitulos.css";
 
 export const Capitulos = () => {
 

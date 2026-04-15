@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/titulos.css";
+import "../stylesheets/Titulos.css";
 
 export const Titulos = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/cardSolucion.css";
+import "../stylesheets/CardSolucion.css";
 
 export const CardSolucion = ({titulo,icono,texto1,texto2,texto3,color = "rojo"
 }) => {

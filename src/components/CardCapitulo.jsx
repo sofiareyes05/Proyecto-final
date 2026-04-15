@@ -1,7 +1,7 @@
 import React from "react";
-import "../stylesheets/capitulos.css";
+import "../stylesheets/Capitulos.css";
 
-export const CardCapitulos = ({
+export const CardCapitulo = ({
   imagen,
   capitulo,
   titulo,
@@ -28,4 +28,4 @@ export const CardCapitulos = ({
   );
 };
 
-export default CardCapitulos;
+export default CardCapitulo;

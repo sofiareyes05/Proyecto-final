@@ -1,9 +1,11 @@
 import React from "react";
-import "../stylesheets/css.css";
+import "../stylesheets/Css.css";
 
 const TituloPersonajes = () => {
   return (
     <div className="titulo-personajes">
+      
+      <div className="container text-center mb-5">
 
       <p className="personajes-sub">
         ELENCO
@@ -12,6 +14,8 @@ const TituloPersonajes = () => {
       <h1 className="personajes-main">
         CONOCE A LOS PERSONAJES
       </h1>
+      </div>
+
 
     </div>
   );

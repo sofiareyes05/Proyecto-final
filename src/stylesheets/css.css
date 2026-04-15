@@ -88,3 +88,22 @@
   background: #bfa76a;
   color: #000;
 }
+.titulo-personajes{
+  font-family: "Ringbearer Medium", serif;
+  font-size: 48px;
+  color: #e6e6e6;
+
+}
+.personajes-sub{
+  color:#00ffaa;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-family: monospace;
+  margin-bottom: 10px;
+
+}
+.personajes-main{
+  font-family: "Minion Variable Concept", serif;
+  color: #bfbfbf;
+  font-style: italic;
+}

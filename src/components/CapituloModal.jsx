@@ -1,6 +1,6 @@
 
-import "../Stylesheets/css.css";
-import "../stylesheets/modal.css"
+import "../Stylesheets/Css.css";
+import "../stylesheets/Modal.css"
 
 export const CapituloModal = ({ capitulo, cerrar }) => {
   return (
@@ -21,7 +21,7 @@ export const CapituloModal = ({ capitulo, cerrar }) => {
 
           <div className="modal-image-container">
             <img
-              src="./capitulo1.jpg"
+             src={capitulo.imagen}
               alt="capitulo"
               className="modal-image"
             />
