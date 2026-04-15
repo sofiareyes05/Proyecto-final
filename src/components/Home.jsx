@@ -1,15 +1,17 @@
 
+import { Problema } from "../pages/Problema";
 import "../stylesheets/css.css";
 
 
 export const Home = () => {
   return (
+    <>
     <div
       style={{
         position: "relative",
         width: "100%",
         height: "100vh",
-        backgroundImage: "url('./public/fondo1.png')",
+        backgroundImage: "url('./fondo1.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
@@ -38,6 +40,7 @@ export const Home = () => {
           zIndex: 1,
         }}
       />
+
 
 
       <div
@@ -133,7 +136,12 @@ export const Home = () => {
 
 
       </div>
+
+      
+
     </div>
+    <Problema/>
+    </>
   );
 };
 

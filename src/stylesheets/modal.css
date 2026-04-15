@@ -1,0 +1,142 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.3s ease;
+}
+
+/* CONTENIDO */
+.modal-content {
+  width: 85%;
+  max-width: 900px;
+  background: radial-gradient(circle at top, #0b0f0e, #050807);
+  border-radius: 12px;
+  padding: 25px;
+  color: white;
+  position: relative;
+  border: 1px solid rgba(26, 217, 109, 0.2);
+  box-shadow: 0 0 40px rgba(26, 217, 109, 0.15);
+  animation: scaleIn 0.3s ease;
+}
+
+/* BOTÓN CERRAR */
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #1AD96D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #1AD96D;
+  transition: 0.3s;
+}
+
+.modal-close:hover {
+  background: #1AD96D;
+  color: black;
+}
+
+/* TITULO */
+.modal-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal-title .capitulo {
+  color: #1AD96D;
+  font-weight: bold;
+}
+
+/* IMAGEN */
+.modal-image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+/* PLAY */
+.modal-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.modal-play img {
+  width: 50px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 10px #1AD96D);
+}
+
+.modal-play p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ccc;
+}
+
+/* DESCRIPCIÓN */
+.modal-desc {
+  color: #989281;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* INFO */
+.modal-info {
+  display: flex;
+  gap: 25px;
+  color: #1AD96D;
+}
+
+/* ITEMS */
+.modal-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-item img {
+  width: 18px;
+  filter: brightness(0) saturate(100%) invert(67%) sepia(78%) saturate(400%) hue-rotate(90deg);
+}
+
+/* ANIMACIONES */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

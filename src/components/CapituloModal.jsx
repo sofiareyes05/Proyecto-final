@@ -1,7 +1,8 @@
-import React from "react";
-import "../Stylesheets/css.css";
 
-export const CapituloModal = () => {
+import "../Stylesheets/css.css";
+import "../stylesheets/modal.css"
+
+export const CapituloModal = ({ capitulo, cerrar }) => {
   return (
     <>
 
@@ -10,12 +11,12 @@ export const CapituloModal = () => {
 
         <div className="modal-content">
 
-          <div className="modal-close">
+          <div onClick={cerrar} className="modal-close">
             ✕
           </div>
 
           <h2 className="modal-title">
-            <span className="capitulo">CAPÍTULO I</span> — EL HORROR DEL MUSEO
+            <span className="capitulo">{capitulo.capitulo}</span> — {capitulo.titulo}
           </h2>
 
           <div className="modal-image-container">
@@ -32,7 +33,7 @@ export const CapituloModal = () => {
           </div>
 
           <p className="modal-desc">
-            Stephen Jones descubre el museo de cera de Rogers y su macabra colección.
+            {capitulo.descripcion}
           </p>
 
           <div className="modal-info">
