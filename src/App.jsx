@@ -7,7 +7,7 @@ import { Personajes } from './pages/Personajes'
 import "./App.css"
 import { SobreNosotros } from './pages/SobreNosotros'
 import Equipo from './pages/Equipo'
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"
 
 export const App = () => {
   return (
@@ -24,7 +24,6 @@ export const App = () => {
         <Route path="/equipo" element={<Equipo />} />
       </Routes>
 
-      {/* 🔥 AGREGA ESTO */}
       <Footer />
     </BrowserRouter>
   )
