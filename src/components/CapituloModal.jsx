@@ -5,8 +5,7 @@ import "../stylesheets/Modal.css"
 export const CapituloModal = ({ capitulo, cerrar }) => {
   return (
     <>
-
-
+  
       <div className="modal-overlay">
 
         <div className="modal-content">
