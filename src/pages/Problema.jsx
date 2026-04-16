@@ -1,5 +1,5 @@
 
-import {CardSolucion} from "./components/CardSolucion";
+import CardSolucion from "./components/CardSolucion";
 import {Titulos} from "../components/Titulos";
 import {FraseFinal} from "../components/FraseFinal";
 
