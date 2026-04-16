@@ -6,10 +6,10 @@ import "../stylesheets/css.css";
 export const Personajes = () => {
   return (
     <>
-    <br />
-    <br />
-    <br />
-    <br />
+     <br />
+     <br />
+     <br />
+     <br />
 
       <div className="personajes-titulo pt-6">
         <TituloPersonajes />
