@@ -1,6 +1,6 @@
 import React from "react";
 import { CardInfo } from "../components/CardInfo";
-import "../stylesheets/SobreNosotros.css";
+import "../stylesheets/sobrenosotros.css";
 
 export const SobreNosotros = () => {
   return (

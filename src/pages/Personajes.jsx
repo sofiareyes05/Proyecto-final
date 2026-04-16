@@ -1,7 +1,7 @@
 import React from "react";
 import TituloPersonajes from "../components/TituloPersonajes";
 import CardGrande from "../components/CardGrande";
-import "../stylesheets/Css.css";
+import "../stylesheets/css.css";
 
 export const Personajes = () => {
   return (
