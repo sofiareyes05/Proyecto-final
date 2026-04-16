@@ -5,7 +5,6 @@ export const CardSolucion = ({titulo,icono,texto1,texto2,texto3,color = "rojo"
 }) => {
   return (
     <div className={`card-info ${color}`}>
-
       <div className="card-header d-flex align-items-center">
         <div className="icon-circle">
           <img src={icono} alt="icono" className="card-icon" />
