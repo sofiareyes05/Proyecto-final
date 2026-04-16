@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/CardInfo.css";
+import "../stylesheets/cardInfo.css";
 
 export const CardInfo = ({ titulo, texto, color = "verde" }) => {
   return (

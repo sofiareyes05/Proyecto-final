@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Css.css";
+import "../stylesheets/css.css";
 /* import { useNavigate } from "react-router-dom"; */
 
 export const CardGrande = ({nombre,rol,descripcion,imagen,tipo,rasgo,ruta,

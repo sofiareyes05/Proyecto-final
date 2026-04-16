@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Css.css";
+import "../stylesheets/css.css";
 
 const TituloPersonajes = () => {
   return (

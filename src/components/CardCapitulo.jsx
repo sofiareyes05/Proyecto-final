@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Capitulos.css";
+import "../stylesheets/capitulos.css";
 
 export const CardCapitulo = ({
   imagen,

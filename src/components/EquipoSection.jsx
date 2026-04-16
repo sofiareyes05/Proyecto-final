@@ -1,4 +1,4 @@
-import "../stylesheets/Equipo.css";
+import "../stylesheets/equipo.css";
 
 const EquipoSection = () => {
   const equipo = [

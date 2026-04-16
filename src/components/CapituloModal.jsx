@@ -1,6 +1,6 @@
 
-import "../stylesheets/Css.css";
-import "../stylesheets/Modal.css"
+import "../stylesheets/css.css";
+import "../stylesheets/modal.css"
 
 export const CapituloModal = ({ capitulo, cerrar }) => {
   return (

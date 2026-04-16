@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import "../stylesheets/Css.css";
+import "../stylesheets/css.css";
 
 export const Header = () => {
   return (

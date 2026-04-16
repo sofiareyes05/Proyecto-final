@@ -1,6 +1,6 @@
 
 import { Problema } from "../pages/Problema";
-import "../stylesheets/Css.css";
+import "../stylesheets/css.css";
 
 
 export const Home = () => {
