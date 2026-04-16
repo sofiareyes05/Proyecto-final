@@ -35,4 +35,4 @@ export const CardSolucion = ({titulo,icono,texto1,texto2,texto3,color = "rojo"
   );
 };
 
-export default CardSolucion;
+export default  CardSolucion;
