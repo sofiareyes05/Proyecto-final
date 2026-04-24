@@ -111,7 +111,7 @@ export const Home = () => {
               fontFamily: "haus"
             }}
           >
-            DESCUBRIR MÁS
+            ENTRAR A GRIMORIO
           </button>
           <button
             style={{
@@ -126,7 +126,7 @@ export const Home = () => {
               fontFamily: "haus"
             }}
           >
-            VER EL CÓMIC
+            ENTRAR AL MUSEO 
           </button>
 
         </div>
